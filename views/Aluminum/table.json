@@ -1,0 +1,51 @@
+{
+  "singleTableData": {
+    "cellStyle": {
+      "height": "30px",
+      "padding": "5px 0"
+    },
+    "data": [],
+    "total": 0,
+    "currentPage": 1,
+    "pageSize": 10,
+    "columns": [
+      {
+        "type": "selection"
+      },
+      {
+        "prop": "id",
+        "label": "编码",
+        "width": "150px"
+      },
+      {
+        "prop": "name",
+        "label": "名称"
+      },
+      {
+        "prop": "meterWeight",
+        "label": "米重",
+        "width": "100px"
+      },
+      {
+        "prop": "length",
+        "label": "长度"
+      },
+      {
+        "prop": "quantity",
+        "label": "数量",
+        "width": "100px"
+      },
+      {
+        "label": "重量"
+      },
+      {
+        "prop": "colorNumber",
+        "label": "色号"
+      },
+      {
+        "prop": "remark",
+        "label": "备注"
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "apiName":"production",
+  "editDialogTitle": "生产计划",
+  "width": "700px",
+  "labelWidth": "80px",
+    "formItems": {
+    "form": [
+      {
+        "type": "input",
+        "value": "",
+        "label": "订单类型",
+        "name": "orderType",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "订单编号",
+        "name": "orderFormno",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "客户名称",
+        "name": "customerName",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "业务员",
+        "name": "salesman",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "交货日期",
+        "name": "deliveryDate",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "数量",
+        "name": "qty",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "产品类型",
+        "name": "productType",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "产品编号",
+        "name": "productno",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "产品类型",
+        "name": "productName",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "品牌",
+        "name": "brand",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "型号",
+        "name": "model",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "规格",
+        "name": "standard",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "压字轮",
+        "name": "pressWheel",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "表面处理",
+        "name": "surfaceTreatment",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "单位",
+        "name": "productUnit",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "负责人",
+        "name": "leadingOfficial",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "排单状态",
+        "name": "status",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "审核员",
+        "name": "checker",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "审核日期",
+        "name": "checkDate",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "审核状态",
+        "name": "checkState",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "流程编号",
+        "name": "instId",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "备注",
+        "name": "description",
+        "style": {
+          "width": "50%"
+        }
+     }
+    ]
+  }
+}

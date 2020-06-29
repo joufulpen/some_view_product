@@ -1,0 +1,35 @@
+{
+  "buttons":[{
+        "text": "查询",
+        "size": "mini",
+        "icon": "#iconchaxun",
+        "disabled": false,
+        "controlDisable":"",
+        "key": "query"
+      },
+      {
+        "text": "编辑",
+        "size": "mini",
+        "icon": "#iconERP_bianji",
+        "disabled": true,
+        "controlDisable":"single",
+        "key": "new-edit"
+      },
+      {
+        "text": "删除",
+        "size": "mini",
+        "icon": "#iconERP_shanchu",
+        "disabled": true,
+        "controlDisable":"single",
+        "key": "delete"
+      },
+      {
+        "text": "确认",
+        "size": "mini",
+        "icon": "#iconqueren",
+        "disabled": true,
+        "controlDisable":"single",
+        "key":"comfirm"
+      }
+      ]
+}

@@ -1,0 +1,84 @@
+{
+  "apiName":"production",
+  "hdrTitle": "计划基本信息",
+  "hdrFirstFormItems": {
+    "form": [{
+      "type": "select",
+      "name": "receivingReason",
+      "label": "领料原因",
+      "value": "",
+      "disabled": false,
+      "options": [],
+      "style": "",
+      "inputStyle": "width:193px"
+    }, {
+      "type": "select",
+      "name": "receivingPerson",
+      "label": "领料人",
+      "value": "",
+      "readonly": false,
+      "style": "",
+      "inputStyle": "width:193px",
+      "options": []
+    }, {
+      "type": "select",
+      "name": "type",
+      "label": "类型",
+      "value": "",
+      "disabled": false,
+      "clearable": false,
+      "options": [{
+        "value": "部件"
+      }, {
+        "value": "物料"
+      }],
+      "rules": {
+        "required": true,
+        "message": "此项不能为空",
+        "trigger": "change"
+      },
+      "style": "",
+      "inputStyle": "width:193px"
+    }]
+  },
+  "hdrSecondFormItems": {
+    "form": [{
+      "type": "mixInput",
+      "name": "pFormno",
+      "label": "关联订单",
+      "value": "",
+      "disabled": false,
+      "buttonDisabled": false,
+      "style": "",
+      "inputStyle": "width:248px"
+    }, {
+      "type": "textarea",
+      "name": "description",
+      "label": "备注",
+      "value": "",
+      "readonly": false,
+      "style": "width:100%",
+      "inputStyle": {
+        "width": "488px"
+      }
+    }]
+  },
+  "dltFormItems": {
+    "form": [{
+      "type": "input",
+      "name": "code",
+      "label": "编号",
+      "value": "",
+      "readonly": true,
+      "style": "",
+      "inputStyle": "width:193px"
+    }, {
+      "type": "inputNumber",
+      "name": "qty",
+      "label": "领取数量",
+      "value": "",
+      "style": "margin-right:10px",
+      "inputStyle": "width:193px"
+    }]
+  }
+}

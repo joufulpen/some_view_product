@@ -1,0 +1,71 @@
+{
+  "queryCondition": {
+        "name": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "name",
+              "tableRelationMode": "AND",
+              "tableName":"[Part]",
+              "name": "名称",
+              "form": "input"
+        },
+
+        "specifications": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "specifications",
+              "tableRelationMode": "AND",
+              "tableName":"[Part]",
+              "name": "规格",
+              "form": "input"
+        },
+        "buildingName": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "buildingName",
+              "tableRelationMode": "AND",
+              "tableName":"[Part]",
+              "name": "栋号",
+              "form": "input"
+        },
+        "level": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "level",
+              "tableRelationMode": "AND",
+              "tableName":"[Part]",
+              "name": "楼层",
+              "form": "input"
+        },
+        "apartmentNumber": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "apartmentNumber",
+              "tableRelationMode": "AND",
+              "tableName":"[Part]",
+              "name": "房间号",
+              "form": "input"
+        },
+        "type": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "type",
+              "tableRelationMode": "AND",
+              "tableName":"[Part]",
+              "name": "零部件类型",
+              "form": "input"
+        }
+  }
+}

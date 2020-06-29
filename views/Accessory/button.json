@@ -1,0 +1,44 @@
+{
+  "buttons": [{
+      "text": "导入",
+      "size": "mini",
+      "icon": "#icondaoruwenjian",
+      "disabled": false,
+      "controlDisable": "",
+      "key": "custom-import"
+    },
+    {
+      "text": "删除",
+      "size": "mini",
+      "icon": "#iconERP_shanchu",
+      "disabled": true,
+      "controlDisable": "multiple",
+      "key": "custom-delete"
+    },
+    {
+      "text": "保存",
+      "size": "mini",
+      "icon": "#iconqueren",
+      "disabled": true,
+      "controlDisable": "",
+      "key": "custom-save"
+    }
+  ],
+  "备用": [{
+      "text": "编辑",
+      "size": "mini",
+      "icon": "#iconERP_bainji",
+      "disabled": true,
+      "controlDisable": "single",
+      "key": "custom-edit"
+    },
+    {
+      "text": "导入玻璃",
+      "size": "mini",
+      "icon": "#icondaoruwenjian",
+      "disabled": false,
+      "controlDisable": "",
+      "key": "custom-import2"
+    }
+  ]
+}

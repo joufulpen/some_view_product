@@ -1,0 +1,50 @@
+{
+  "hdrTableData": {
+    "cellStyle": {
+      "height": "30px",
+      "padding": "5px 0"
+    },
+    "data": [],
+    "total": 0,
+    "currentPage": 1,
+    "pageSize": 10,
+    "columns": [{
+        "type": "selection",
+        "showSelectable":true,
+        "justifyProp":"status",
+        "justifyText":"已领料"
+      },
+      {
+        "prop": "formno",
+        "label": "领料计划单号",
+        "width":"145px"
+      },
+      {
+        "prop": "receivingReason",
+        "label": "领料原因"
+      },
+      {
+        "prop":"status",
+        "label":"状态",
+        "sortable":true
+      },
+      {
+        "prop":"type",
+        "label":"类型"
+      },
+      {
+        "prop": "pFormno",
+        "label": "关联订单"
+      },
+      {
+        "prop": "employeeName",
+        "label": "领料人"
+      },
+      {
+        "prop": "description",
+        "label": "备注"
+      }
+    ]
+  }
+
+}

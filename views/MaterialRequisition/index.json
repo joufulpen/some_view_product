@@ -1,0 +1,344 @@
+{
+  "apiName":"production",
+  "editDialogTitle": "xxxxDialog",
+  "width": "700px",
+  "labelWidth": "80px",
+    "editTableData": {
+    "showPage": false,
+    "height": "200px",
+    "columns": [
+      {
+        "prop": "index",
+        "label": "code"
+      },
+      {
+        "prop": "index",
+        "label": "price"
+      },
+      {
+        "prop": "index",
+        "label": "qty"
+      }
+    ],
+    "data": [ ]
+  },
+  "toolsFormItems": {
+    "form": [
+      {
+        "type": "input",
+        "value": "",
+        "label": "单号",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "sn"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "父单号",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "formno"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "产品编号",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "code"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "真实编码",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "realCode"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "产品名称",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "codeName"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "数量",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "qty"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "剩余量",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "leave"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "冻结量",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "freeze"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "源序列",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "sourceSn"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "父序列",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "parentSn"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "单价",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "price"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "描述",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "description"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "冲减标记",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "tag"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "冲减关联序号",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "tagSn"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "物料大类",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "materialClass"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "物料小类",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "materialSubclass"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "别名",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "byname"
+      },       
+      {
+        "type": "input",
+        "value": "",
+        "label": "规格",
+        "inputStyle": {
+          "width": "150px",
+          "marginRight": "5px"
+        },
+        "name": "specifications"
+      },       
+      {
+        "type": "button",
+        "buttons": [
+          {
+            "text": "提交",
+            "size": "mini",
+            "disabled": true,
+            "key": "submit"
+          },
+          {
+            "text": "取消",
+            "size": "mini",
+            "disabled": true,
+            "key": "cancel"
+          },
+          {
+            "text": "删除",
+            "size": "mini",
+            "disabled": true,
+            "key": "delete"
+          }
+        ]
+      }
+    ]
+  },
+  "formItems": {
+    "form": [
+      {
+        "type": "input",
+        "value": "",
+        "label": "序号",
+        "name": "formno",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "父序号",
+        "name": "pFormno",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "业务日期",
+        "name": "billDateTime",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "制单员",
+        "name": "lister",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "审核员",
+        "name": "checker",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "审核日期",
+        "name": "checkDate",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "审核状态",
+        "name": "checkState",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "描述",
+        "name": "description",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "生产计划",
+        "name": "productionScheduleID",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "领料原因",
+        "name": "receivingReason",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "领料人",
+        "name": "receivingPerson",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "状态",
+        "name": "status",
+        "style": {
+          "width": "50%"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "singleTableData": {
+    "cellStyle": {
+      "height": "30px",
+      "padding": "5px 0"
+    },
+    "data": [],
+    "total": 0,
+    "currentPage": 1,
+    "pageSize": 10,
+    "columns": [{
+        "type": "selection"
+      },
+      {
+        "prop": "id",
+        "label": "编码"
+      },
+      {
+        "prop": "name",
+        "label": "名称"
+      },
+      {
+        "prop": "category",
+        "label": "类别"
+      },
+      {
+        "prop": "unit",
+        "label": "单位"
+      },
+      {
+        "prop": "quantity",
+        "label": "数量"
+      },
+      {
+        "prop": "place",
+        "label": "使用地"
+      },
+      {
+        "prop": "remark",
+        "label": "备注"
+      }
+    ]
+  }
+
+}

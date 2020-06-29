@@ -1,0 +1,32 @@
+{
+  "dtlTableData": [
+    {
+      "label": "领料单明细列表",
+      "name": "first",
+      "data": [ ],
+      "cellRow": {
+        "height": "30px",
+        "padding": "5px 0"
+      },
+      "columns": [
+        {
+          "prop": "code",
+          "label": "物料编号"
+        },
+        {
+          "prop": "codeName",
+          "label": "物料名称"
+        },
+
+        {
+          "prop": "Specifications",
+          "label": "规格"
+        },
+        {
+          "prop": "qty",
+          "label": "数量"
+        }
+      ]
+    }
+  ]
+}

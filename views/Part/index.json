@@ -1,0 +1,147 @@
+{
+  "apiName": "production",
+  "editDialogTitle": "生产计划模块",
+  "width": "700px",
+  "labelWidth": "80px",
+  "formItems": {
+    "form": [
+      {
+        "type": "input",
+        "value": "",
+        "label": "父级编号",
+        "name": "parentID",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "建筑名称",
+        "name": "buildingName",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "楼层",
+        "name": "level",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "房间号",
+        "name": "apartmentNumber",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "窗号",
+        "name": "windowCode",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "色号",
+        "name": "colorNumber",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "名称",
+        "name": "name",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "select",
+        "value": "",
+        "label": "类型",
+        "name": "type",
+        "style": {
+          "width": "50%"
+        },
+        "options": [
+          { "label": "分体", "value": "分体" },
+          { "label": "加铁", "value": "加铁" },
+          { "label": "横料", "value": "横料" },
+          { "label": "竖料", "value": "竖料" },
+          { "label": "方管", "value": "方管" },
+          { "label": "玻璃", "value": "玻璃" },
+          { "label": "铝板", "value": "铝板" },
+          { "label": "折弯铝板", "value": "折弯铝板" },
+          { "label": "配件", "value": "配件" }
+        ]
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "长",
+        "name": "length",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "宽",
+        "name": "width",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "高",
+        "name": "height",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "重量",
+        "name": "weight",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "窗型号",
+        "name": "fissionsCode",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "备注",
+        "name": "remark",
+        "style": {
+          "width": "50%"
+        }
+      }
+    ]
+  }
+}

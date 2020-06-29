@@ -1,0 +1,54 @@
+{
+	"hdrTableData":{
+      "cellStyle": {
+        "height": "30px",
+        "padding": "5px 0"
+        },
+      "data": [],
+      "total": 0,
+      "currentPage": 1,
+      "pageSize": 10,
+      "columns": [{
+          "type": "selection"
+        },
+        {
+          "prop": "formno",
+          "label": "计划编号"
+        }
+        ,
+         {
+          "prop": "startDate",
+          "label": "计划开始日期",
+          "dateFormatter":true
+        }
+        ,
+        {
+          "prop": "completeDate",
+          "label": "计划完成日期",
+          "dateFormatter":true
+        }
+        ,
+        {
+          "prop": "listerName",
+          "label": "排产员"
+        }
+        ,
+        {
+          "prop": "createDate",
+          "label": "操作时间",
+          "dateFormatter":true
+        }
+        ,    
+        {
+          "prop": "checkState",
+          "label": "计划状态"
+        }
+        ,
+        {
+          "prop": "description",
+          "label": "备注"
+        }
+        ]
+        }
+  
+}

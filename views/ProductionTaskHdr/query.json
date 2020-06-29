@@ -1,0 +1,72 @@
+{
+  "queryCondition": {
+        "Formno": {
+              "value": "",
+              "mode": "相似",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "Formno",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionTaskHdr]",
+              "name": "生产任务单号",
+              "form": "input"
+        }
+        ,
+        "projectFormno": {
+              "value": "",
+              "mode": "相似",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "projectFormno",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionTaskHdr]",
+              "name": "生产计划编号",
+              "form": "input"
+        }
+        ,
+          "startTime": {
+              "value": ["",""],
+              "mode": "之间",
+              "modeList":[],
+              "dataType": "date",
+              "fieldName": "startTime",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionTaskHdr]",
+              "name": "计划开始日期",
+              "form": "date"
+        }
+        ,
+        "completeTime": {
+              "value": ["",""],
+              "mode": "之间",
+              "modeList":[],
+              "dataType": "date",
+              "fieldName": "completeTime",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionTaskHdr]",
+              "name": "计划完成日期",
+              "form": "date"
+        }
+        ,
+        "Status": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "options":[{
+                "label":"未生产",
+                "value":"未生产"
+              },
+              {
+                "label":"已生产",
+                "value":"已生产"
+              }],
+              "dataType": "string",
+              "fieldName": "Status",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionTaskHdr]",
+              "name": "任务状态",
+              "form": "select"
+        }
+        
+  }
+}

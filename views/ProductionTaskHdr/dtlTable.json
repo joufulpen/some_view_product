@@ -1,0 +1,67 @@
+{
+  "dtlTableData": [
+    {
+      "label": "生产任务单明细列表",
+      "name": "first",
+      "data": [ ],
+      "cellRow": {
+        "height": "30px",
+        "padding": "5px 0"
+      },
+      "columns": [
+        {
+          "prop": "projectFormno",
+          "label": "项目编号"
+        },
+        {
+          "prop": "projectName",
+          "label": "项目名称"
+        },
+        {
+          "prop": "orderFormno",
+          "label": "订单编号"
+        },
+        {
+          "prop": "customerName",
+          "label": "客户名称"
+        },
+        {
+          "prop": "orderType",
+          "label": "订单类型"
+        },
+        {
+          "prop": "deliveryDate",
+          "label": "预计发货时间"
+        },
+        {
+          "prop": "buildName",
+          "label": "建筑名称"
+        },
+        {
+          "prop": "floor",
+          "label": "楼层"
+        },
+        {
+          "prop": "room",
+          "label": "房间号"
+        },
+        {
+          "prop": "windowNum",
+          "label": "窗号"
+        },
+        {
+          "prop": "colorNum",
+          "label": "色号"
+        },
+        {
+          "prop": "surfaceTreatment",
+          "label": "规格"
+        },
+        {
+          "prop":"descrition",
+          "label":"备注"
+        }
+      ]
+    }
+  ]
+}

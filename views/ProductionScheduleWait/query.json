@@ -1,0 +1,90 @@
+{
+  "queryCondition": {
+        "projectFormno": {
+              "value": "",
+              "mode": "相似",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "projectFormno",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionSchedule]",
+              "name": "项目编号",
+              "form": "input"
+        }
+        ,
+        "projectName": {
+              "value": "",
+              "mode": "相似",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "projectName",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionSchedule]",
+              "name": "项目名称",
+              "form": "input"
+        }
+        ,
+        "OrderFormno": {
+              "value": "",
+              "mode": "相似",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "OrderFormno",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionSchedule]",
+              "name": "订单编号",
+              "form": "input"
+        }
+        ,
+        "OrderType": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "options":[],
+              "prefix":"basic",
+              "api":"BaseProperty/GetList?condition=[%7B%22FieldName%22:%22Type%22,%22TableName%22:%22[BaseProperty]%22,%22Value%22:[%7B%22value%22:%22%E8%AE%A2%E5%8D%95%E7%B1%BB%E5%9E%8B%22%7D],%22TableRelationMode%22:%22AND%22,%22Mode%22:%22%E7%AD%89%E4%BA%8E%22,%22DataType%22:%22string%22%7D]",
+              "dataType": "string",
+              "fieldName": "OrderType",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionSchedule]",
+              "name": "订单类型",
+              "form": "select"
+        }
+        ,
+        "CustomerName": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "CustomerName",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionSchedule]",
+              "name": "客户名称",
+              "form": "input"
+        }
+        ,
+        "submitDate": {
+              "value": ["",""],
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "date",
+              "fieldName": "submitDate",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionSchedule]",
+              "name": "提交时间",
+              "form": "date"
+        }
+        ,
+        "DeliveryDate": {
+              "value": ["",""],
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "date",
+              "fieldName": "DeliveryDate",
+              "tableRelationMode": "AND",
+              "tableName":"[ProductionSchedule]",
+              "name": "预计交货日期",
+              "form": "date"
+        }
+  }
+}

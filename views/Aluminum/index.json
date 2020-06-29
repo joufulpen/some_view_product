@@ -1,0 +1,118 @@
+{
+  "apiName":"production",
+  "editDialogTitle": "生产计划模块",
+  "width": "700px",
+  "labelWidth": "80px",
+    "formItems": {
+    "form": [
+      {
+        "type": "input",
+        "value": "",
+        "label": "父级编号",
+        "name": "parentID",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "建筑名称",
+        "name": "buildingName",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "楼层",
+        "name": "level",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "房间号",
+        "name": "apartmentNumber",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "窗号",
+        "name": "windowMode",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "色号",
+        "name": "colorNumber",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "名称",
+        "name": "name",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "类型",
+        "name": "type",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "长",
+        "name": "length",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "宽",
+        "name": "width",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "高",
+        "name": "height",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "备注",
+        "name": "remark",
+        "style": {
+          "width": "50%"
+        }
+     }
+    ]
+  }
+}

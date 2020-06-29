@@ -1,0 +1,41 @@
+                          <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- title为变量 是模块的名字 -->
+  <title>生产计划表</title>
+    <script>
+    window.coolLocals={}
+    window.extraJsons = ['dtlTable.json']
+    </script>
+  <script src="/settings.js"></script>
+</head>
+
+<body>
+  <div id="root" v-cloak> 
+       <!--cool-master-view  cool-master-dialog  组件为固定组件 需模板生成-->
+     <cool-master-view ref="masterView" :unique-deploy-key="uniqueDeployKey" :axios-setting="axiosSetting" :dialogs="dialogs" :show-mode-list="showModeList" :is-methods="isMethods" @table-row-click="tableRowClick" @table-row-dblclick="tableRowDblclick"  @table-select-change="tableSelectionChange"  @pagination-size-change="paginationSizeChange" @pagination-current-change="paginationCurrentChange" @get-condition="getCondition" @new-edit="newEdit" @save-event="dialogSaveEvent" @back-event="dialogBackEvent" @comfirm="comfirm"></cool-master-view>
+     <!-- <cool-master-dialog :unique-key="uniqueKey" :visible.sync="dialogVisible" :is-methods="isDialogMethods" @update-form="updateForm" @save-event="saveEvent"></cool-master-dialog> -->
+     <!-- cool-just-dialog -->
+     <cool-just-dialog :visible.sync="dialogVisible" :title="dialogTitle" :show-save-button="showSaveButton" :width="dialogWidth" @save-event="saveEvent" @back-event="backEvent" @closedialog="backEvent">
+        <template slot="dialogSlot" >
+          <div style="overflow: hidden;border:1px solid #DCDFE6;" >
+            <el-row>
+              <el-col :span="12">
+                <cool-button-group :buttons="buttons" @button-click="buttonClick"></cool-button-group>
+              </el-col>
+              <el-col :span="12">
+                <el-input placeholder="请输入内容" v-model="keyword" suffix-icon="el-icon-search" clearable size="mini" style="width:280px;float:right">
+                </el-input> 
+              </el-col>
+            </el-row>
+               <cool-form-view ref="coolFormView" style="border-top: 1px solid #DCDFE6"  :form-items="coolFormItems" :inline="true" :label-width="coolLabelWidth" @update-form="updateForm" @button-click="submit" @keyup-enter="keyupEnter"></cool-form-view> 
+              <cool-table-view  :columns="columns" :data="inTableData" :height="tableHeight" @table-row-click="outRowClick" @table-selection-change="outSelection" :stripe="stripe" @table-row-dblclick="rowDblclick"></cool-table-view>
+            </el-tab-pane>
+          </div>      
+        </template>
+      </cool-just-dialog>
+  </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- title为变量 是模块的名字 -->
+  <title>待排计划列表</title>
+    <script>window.coolLocals={}</script>
+  <script src="/settings.js"></script>
+</head>
+
+<body>
+  <div id="root" v-cloak >  
+       <!--cool-single-view  cool-single-dialog  组件为固定组件 需模板生成-->
+     <cool-single-view ref="singleView" :unique-deploy-key="uniqueDeployKey" :axios-setting="axiosSetting" :dialogs="dialogs" :is-methods="isMethods" @table-row-click="tableRowClick" @table-row-dblclick="tableRowDblclick"  @table-selection-change="tableSelectionChange"  @pagination-size-change="paginationSizeChange" @pagination-current-change="paginationCurrentChange" @get-condition="getCondition" @new-construction="newConstruction" @make-plan="makePlan"></cool-single-view>
+    <!--  <cool-single-dialog :unique-key="uniqueKey" :visible.sync="dialogVisible" :is-methods="isDialogMethods" @update-form="updateForm" @save-event="saveEvent"></cool-single-dialog> -->
+     <cool-just-dialog :visible.sync="dialogVisible" :title="dialogTitle" :show-save-button="showSaveButton" :width="dialogWidth" @save-event="saveEvent" @back-event="backEvent" @closedialog="backEvent">
+        <template slot="dialogSlot" >
+          <div style="overflow: hidden;border:1px solid #DCDFE6;" >
+            <cool-form-view ref="packCoolForm" :form-items="formItems" size="mini" :inline="true" :label-width="packLabelWidth" @update-form="updateForm"></cool-form-view>
+          </div>      
+        </template>
+      </cool-just-dialog>
+  </div>
+</body>
+</html>

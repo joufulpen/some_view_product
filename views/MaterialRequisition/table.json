@@ -1,0 +1,47 @@
+{
+	"hdrTableData":{
+      "cellStyle": {
+        "height": "30px",
+        "padding": "5px 0"
+        },
+      "data": [],
+      "total": 0,
+      "currentPage": 1,
+      "pageSize": 10,
+      "columns": [{
+          "type": "selection"
+        },
+        {
+          "prop": "formno",
+          "label": "领料单号"
+        }
+        ,
+        {
+          "prop": "pFormno",
+          "label": "领料计划单号"
+        }
+        ,
+        {
+          "prop": "orderNo",
+          "label": "关联订单"
+        }
+        ,
+        {
+          "prop": "listerName",
+          "label": "操作人"
+        }
+        ,
+        {
+          "prop": "createDate",
+          "label": "操作时间",
+          "dateFormatter":true
+        }
+        ,
+        {
+          "prop": "description",
+          "label": "备注"
+        }
+        ]
+        }
+  
+}

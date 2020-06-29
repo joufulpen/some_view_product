@@ -1,0 +1,34 @@
+{
+  "buttons":[{
+        "text": "查询",
+        "size": "mini",
+        "icon": "#iconchaxun",
+        "disabled": false,
+        "controlDisable":"",
+        "key": "query"
+      },
+      {
+        "text": "退回",
+        "size": "mini",
+        "icon": "#icontuihui",
+        "disabled": false,
+        "controlDisable":"",
+        "key":"audit"
+      },{
+        "text": "制定计划",
+        "size": "mini",
+        "icon": "#iconjihua",
+        "disabled": true,
+        "controlDisable":"multiple",
+        "key":"make-plan"
+      },
+      {
+        "text": "返回",
+        "size": "mini",
+        "icon": "#icontuihui",
+        "disabled": false,
+        "controlDisable":"",
+        "key":"export"
+      }
+      ]
+}

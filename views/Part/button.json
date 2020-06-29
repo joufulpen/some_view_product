@@ -1,0 +1,46 @@
+{
+  "buttons": [
+    {
+      "text": "导入工艺单",
+      "size": "mini",
+      "icon": "#icondaoruwenjian",
+      "disabled": false,
+      "controlDisable": "",
+      "key": "custom-import"
+    },
+    {
+      "text": "编辑",
+      "size": "mini",
+      "icon": "#iconERP_bianji",
+      "disabled": true,
+      "controlDisable": "single",
+      "key": "custom-edit"
+    },
+    {
+      "text": "删除",
+      "size": "mini",
+      "icon": "#iconERP_shanchu",
+      "disabled": true,
+      "controlDisable": "multiple",
+      "key": "custom-delete"
+    },
+    {
+      "text": "保存",
+      "size": "mini",
+      "icon": "#iconqueren",
+      "disabled": true,
+      "controlDisable": "",
+      "key": "custom-save"
+    }
+  ],
+  "备用": [
+    {
+      "text": "导入玻璃",
+      "size": "mini",
+      "icon": "#icondaoruwenjian",
+      "disabled": false,
+      "controlDisable": "",
+      "key": "custom-import2"
+    }
+  ]
+}

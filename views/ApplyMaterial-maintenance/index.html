@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>领料计划编辑</title>
+  <style>
+    [v-cloak] {
+      display: none !important;
+    }
+
+    #main .cool-form {
+      padding-top: 2px !important;
+    }
+
+    .cool-form .el-form-item {
+      margin-bottom:2px
+    }
+  </style>
+  <script>window.coolLocals={}</script>
+  <script src="/settings.js"></script>
+</head>
+
+<body>
+  <div id="root" v-cloak>
+    <el-container v-loading="loading">
+      <!-- <el-header height="auto" v-if="status !== 'check'">
+        <div style="padding:15px">
+          <el-button type="success" @click="updateFullPage" v-if="status !== 'readonly'" :disabled="this.data.length==0">保 存</el-button>
+          <el-button @click="cancelBtn" v-if="status !== 'readonly'">取 消</el-button>
+        </div>
+      </el-header> -->
+      <el-main id="main">
+        <div>{{hdrTitle}}</div>
+        <cool-form-view ref="hdrFirstFormItems" :form-items="hdrFirstFormItems" @update-form="updateHdrFirstForm" inline label-width="100px"></cool-form-view>
+        <cool-form-view ref="hdrSecondFormItems" :form-items="hdrSecondFormItems" @update-form="updateHdrSecondForm" inline label-width="100px" @input-button-event="selectRelevantOrder"></cool-form-view>
+        <el-divider v-if="status !== 'check'"></el-divider>
+        <el-button-group v-if="status !== 'check'">
+          <el-button size="mini" @click="choosePartBtn" :disabled="partBtnDisabled">选择部件</el-button>
+          <el-button size="mini" @click="chooseOrderMaterialBtn" :disabled="orderBtnDisabled">选择铝材</el-button>
+          <el-button size="mini" @click="chooseMaterialBtn" :disabled="basicBtnDisabled">选择基础物料</el-button>
+          <el-button size="mini" @click="chooseAccessoryBtn" :disabled="accessoryBtnDisabled">选择配件物料</el-button>
+          <el-button size="mini" @click="editMaterialBtn" :disabled="currentSelected.length!==1">编辑</el-button>
+          <el-button size="mini" @click="removeMaterialBtn" :disabled="currentSelected.length==0">移除</el-button>
+        </el-button-group>
+       <!--  <cool-form-view v-if="status !== 'check'" :form-items="dltFormItems" @update-form="updateDltForm" inline label-width="100px" @keyup-enter="confirmBtn">
+          <el-form-item slot="formSlot">
+            <el-button size="mini" type="success" @click="confirmBtn" :disabled="dltFormItems.form.find(p=>p.label=='编号').value.length==0">确认</el-button>
+          </el-form-item>
+        </cool-form-view> -->
+        <cool-table-view ref="coolTable" :data="data" :columns="columns" @table-row-click="rowClick" @table-row-dblclick="rowDblclick" @table-selection-change="materialSelectionChange"></cool-table-view>
+      </el-main>
+    </el-container>
+    <cool-quick-edit ref="quickEdit" :visible.sync="quickDialogVisible" :form-items="quickCoolFormItems" :width="dialogWidth" :label-width="labelWidth" :all-data="data" :current-edit-data="currentEditData"></cool-quick-edit>
+  </div>
+
+</body>

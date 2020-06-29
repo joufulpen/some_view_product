@@ -1,0 +1,80 @@
+{
+  "dtlTableData": [
+    {
+      "label": "领料计划明细",
+      "name": "first",
+      "data": [],
+      "cellRow": {
+        "height": "30px",
+        "padding": "5px 0"
+      },
+      "columns": [
+        {
+          "prop": "sn",
+          "label": "单号"
+        },
+        {
+          "prop": "formno",
+          "label": "父单号"
+        },
+        {
+          "prop": "code",
+          "label": "产品编号"
+        },
+        {
+          "prop": "realCode",
+          "label": "真实编码"
+        },
+        {
+          "prop": "codeName",
+          "label": "产品名称"
+        },
+        {
+          "prop": "qty",
+          "label": "数量"
+        },
+        {
+          "prop": "leave",
+          "label": "剩余量"
+        },
+        {
+          "prop": "price",
+          "label": "单价"
+        },
+        {
+          "prop": "description",
+          "label": "描述"
+        },
+
+        {
+          "prop": "materialClass",
+          "label": "物料大类"
+        },
+        {
+          "prop": "materialSubclass",
+          "label": "物料小类"
+        },
+        {
+          "prop": "byname",
+          "label": "别名"
+        },
+        {
+          "prop": "specifications",
+          "label": "规格"
+        },
+        {
+          "prop": "length",
+          "label": "长"
+        },
+        {
+          "prop": "width",
+          "label": "宽"
+        },
+        {
+          "prop": "height",
+          "label": "高"
+        }
+      ]
+    }
+  ]
+}

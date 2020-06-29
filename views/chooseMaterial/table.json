@@ -1,0 +1,36 @@
+{
+	"singleTableData":{
+      "cellStyle": {
+        "height": "30px",
+        "padding": "5px 0"
+        },
+      "data": [],
+      "total": 0,
+      "currentPage": 1,
+      "pageSize": 10,
+      "columns": [{
+          "type": "selection"
+        },
+        {
+          "prop": "code",
+          "label": "编码"
+        }
+        ,
+        {
+          "prop": "codeName",
+          "label": "名称"
+        }
+        ,
+        {
+          "prop": "specifications",
+          "label": "规格"
+        }
+        ,
+        {
+          "prop": "leave",
+          "label": "待领取数量"
+        }
+        
+        ]
+  }
+}

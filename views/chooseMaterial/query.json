@@ -1,0 +1,39 @@
+{
+  "queryCondition": {
+        "code": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "code",
+              "tableRelationMode": "AND",
+              "tableName":"[Dtl]",
+              "name": "物料编码",
+              "form": "input"
+        }
+        ,
+        "codeName": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "codeName",
+              "tableRelationMode": "AND",
+              "tableName":"[Dtl]",
+              "name": "名称",
+              "form": "input"
+        }
+        ,
+        "specifications": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "specifications",
+              "tableRelationMode": "AND",
+              "tableName":"[Dtl]",
+              "name": "规格",
+              "form": "input"
+        }
+  }
+}

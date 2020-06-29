@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!-- title为变量 是模块的名字 -->
+  <title>该表属于生产计划模块； 作为工艺单导入铝材数据存储的位置</title>
+  <style>
+    [v-cloak] {
+      display: none !important;
+    }
+  </style>
+  <script>
+    window.coolLocals = {}
+    </script>
+  <script type="post-load" src="../libs/xlsx-populate-no-encryption.min.js"></script>
+  <script src="/settings.js"></script>
+</head>
+
+<body>
+  <div id="root" v-cloak>
+    <!--cool-single-view  cool-single-dialog  组件为固定组件 需模板生成-->
+    <el-container>
+      <el-header ref="searchPanel" :height="searchPanelWidth">
+        <div>条件筛选</div>
+        <el-col :span="24/Object.keys(searchConditions).length" v-show="searchPanelWidth!=='0'" v-for="(cond, key) of searchConditions" :key="key">
+          <el-container>
+            <el-aside width="auto">
+              <div style="font-size: 12px; padding: 5px; width: 5em;">{{cond.text}}</div>
+            </el-aside>
+            <el-main>
+              <el-select v-model="cond.value" size="mini" multiple clearable style="overflow: hidden; width: 100%;">
+                <el-option v-for="option in options[key]" :key="option" :value="option">{{option}}</el-option>
+              </el-select>
+            </el-main>
+          </el-container>
+        </el-col>
+      </el-header>
+      <el-header height="auto" style="line-height: 0px;">
+        <el-button size="mini" style="padding: 5px; width:100%;" @click="searchPanelWidth=searchPanelWidth==='0'?'auto':'0'"></el-button>
+      </el-header>
+      <el-main>
+        <cool-single-view ref="singleView" :unique-deploy-key="uniqueDeployKey" :axios-setting="axiosSetting" :dialogs="dialogs" :show-mode-list="showModeList" :is-methods="isMethods" @table-row-click="tableRowClick" @table-row-dblclick="tableRowDblclick"
+          @table-selection-change="tableSelectionChange" @pagination-size-change="paginationSizeChange" @pagination-current-change="paginationCurrentChange" @get-condition="getCondition" @custom-delete="customDelete" @custom-import="customImport"
+          @custom-import2="customImport2" @custom-edit="customEdit" @custom-save="customSave" @looking="search">
+        </cool-single-view>
+      </el-main>
+    </el-container>
+    <cool-single-dialog ref="singleDialog" :unique-key="uniqueKey" :visible.sync="dialogVisible" :is-methods="isDialogMethods" @update-form="updateForm" @save-event="saveEvent"></cool-single-dialog>
+    <!-- 上传弹窗 -->
+    <el-dialog title="导入订购单" :visible="visible" :close-on-click-modal="false" @close="close" width="440px">
+      <el-card shadow="never" style="height: 100%;width:100%;">
+        <el-upload class="upload-demo" ref="upload" :action="action" :headers="headers" :on-preview="handlePreview" :on-remove="handleRemove" :file-list="fileList" :on-change="onChange" :auto-upload="false" multiple>
+          <el-button slot="trigger" size="small" type="primary">选取文件</el-button>
+          <el-button size="small" type="success" @click="templateDownload">模板下载</el-button>
+          <el-button :disabled="fileList.length === 0" style="margin-left: 120px;" size="small" type="success" @click="btnImportClick">导入</el-button>
+          <div slot="tip" class="el-upload__tip">只能上传excel文件?</div>
+        </el-upload>
+      </el-card>
+    </el-dialog>
+    <el-dialog title="玻璃上传" :visible="visible2" :close-on-click-modal="false" @close="visible2=false" width="440px">
+      <el-card shadow="never" style="height: 100%;width:100%;">
+        <el-upload class="upload-demo" ref="upload" action="" :auto-upload="false" accept=".xlsx" v-bind:on-change="uploadChanged">
+          <el-button slot="trigger" size="small" type="primary">选取文件</el-button>
+        </el-upload>
+      </el-card>
+    </el-dialog>
+  </div>
+</body>
+
+</html>

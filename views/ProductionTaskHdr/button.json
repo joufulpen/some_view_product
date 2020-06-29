@@ -1,0 +1,27 @@
+{
+  "buttons":[{
+        "text": "查询",
+        "size": "mini",
+        "icon": "#iconchaxun",
+        "disabled": false,
+        "controlDisable":"",
+        "key": "query"
+      },
+      {
+        "text": "终止",
+        "size": "mini",
+        "icon": "#iconxianshizhongzhi",
+        "disabled": true,
+        "controlDisable":"",
+        "key":"stop"
+      },
+      {
+        "text": "打印生成任务单",
+        "size": "mini",
+        "icon": "#icondayin",
+        "disabled": true,
+        "controlDisable":"single",
+        "key":"package-label"
+      }
+      ]
+}

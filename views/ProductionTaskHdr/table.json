@@ -1,0 +1,45 @@
+{
+	"hdrTableData":{
+      "cellStyle": {
+        "height": "30px",
+        "padding": "5px 0"
+        },
+      "data": [],
+      "total": 0,
+      "currentPage": 1,
+      "pageSize": 10,
+      "columns": [{
+          "type": "selection"
+        },
+        {
+          "prop": "formno",
+          "label": "生产任务单号"
+        }
+        ,
+        {
+          "prop": "pFormno",
+          "label": "生产计划编号"
+        }
+        ,
+        {
+          "prop": "startTime",
+          "label": "计划开始时间",
+          "dateFormatter":true
+        }
+        ,
+        {
+          "prop": "completeTime",
+          "label": "计划完成时间",
+          "dateFormatter":true
+        }
+        ,
+        {
+          "prop": "status",
+          "label": "任务状态",
+          "formatterName":"showStatus"
+        }
+       
+        ]
+        }
+  
+}

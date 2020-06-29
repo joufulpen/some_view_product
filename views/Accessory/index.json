@@ -1,0 +1,73 @@
+{
+  "apiName":"production",
+  "editDialogTitle": "",
+  "width": "700px",
+  "labelWidth": "80px",
+    "formItems": {
+    "form": [
+      {
+        "type": "input",
+        "value": "",
+        "label": "父级编号",
+        "name": "parentID",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "名称",
+        "name": "name",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "类别",
+        "name": "category",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "单位",
+        "name": "unit",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "数量",
+        "name": "quantity",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "使用地",
+        "name": "place",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "备注",
+        "name": "description",
+        "style": {
+          "width": "50%"
+        }
+     }
+    ]
+  }
+}

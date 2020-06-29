@@ -1,0 +1,80 @@
+{
+  "queryCondition": {
+    "Formno": {
+      "value": "",
+      "mode": "相似",
+      "modeList": [],
+      "dataType": "string",
+      "fieldName": "Formno",
+      "tableRelationMode": "AND",
+      "tableName": "[Hdr]",
+      "name": "领料计划单号",
+      "form": "input"
+    },
+    "pFormno": {
+      "value": "",
+      "mode": "相似",
+      "modeList": [],
+      "dataType": "string",
+      "fieldName": "pFormno",
+      "tableRelationMode": "AND",
+      "tableName": "[Hdr]",
+      "name": "关联订单",
+      "form": "input"
+    },
+    "type": {
+      "value": "",
+      "mode": "不参与",
+      "options":[{
+        "label":"部件",
+        "value":"部件"
+      },{
+        "label":"物料",
+        "value":"物料"
+      }],
+      "modeList": [],
+      "disabled":false,
+      "dataType": "string",
+      "fieldName": "type",
+      "tableRelationMode": "AND",
+      "tableName": "[Hdr]",
+      "name": "类型",
+      "form": "select"
+    },
+    "ReceivingReason": {
+      "value": "",
+      "mode": "不参与",
+      "modeList": [],
+      "dataType": "string",
+      "fieldName": "ReceivingReason",
+      "tableRelationMode": "AND",
+      "tableName": "[Hdr]",
+      "name": "领料原因",
+      "form": "select",
+      "options": []
+    },
+    "ReceivingPerson": {
+      "value": "",
+      "mode": "不参与",
+      "modeList": [],
+      "dataType": "string",
+      "fieldName": "ReceivingPerson",
+      "tableRelationMode": "AND",
+      "tableName": "[Hdr]",
+      "name": "领料人",
+      "form": "select",
+      "options": []
+    },
+    "description": {
+      "value": "",
+      "mode": "不参与",
+      "modeList": [],
+      "dataType": "string",
+      "fieldName": "description",
+      "tableRelationMode": "AND",
+      "tableName": "[Hdr]",
+      "name": "备注",
+      "form": "input"
+    }
+  }
+}

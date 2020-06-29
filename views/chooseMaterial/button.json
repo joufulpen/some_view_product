@@ -1,0 +1,11 @@
+{
+  "buttons":[{
+        "text": "查询",
+        "size": "mini",
+        "icon": "#iconchaxun",
+        "disabled": false,
+        "controlDisable":"",
+        "key": "looking"
+      }
+      ]
+}

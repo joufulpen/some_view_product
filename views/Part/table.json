@@ -1,0 +1,87 @@
+{
+  "singleTableData": {
+    "cellStyle": {
+      "height": "30px",
+      "padding": "5px 0"
+    },
+    "data": [],
+    "total": 0,
+    "currentPage": 1,
+    "pageSize": 10,
+    "columns": [
+      {
+        "type": "selection"
+      },
+      {
+        "prop": "id",
+        "label": "编码",
+        "width": "150px"
+      },
+      {
+        "prop": "name",
+        "label": "零部件名称"
+      },
+      {
+        "prop": "quantity",
+        "label": "数量",
+        "width": "50px"
+      },
+      {
+        "prop": "colorNumber",
+        "label": "色号"
+      },
+      {
+        "prop": "type",
+        "label": "零部件类型",
+        "width": "100px"
+      },
+      {
+        "prop": "specifications",
+        "label": "规格"
+      },
+      {
+        "prop": "length",
+        "label": "长",
+        "width": "80px"
+      },
+      {
+        "prop": "width",
+        "label": "宽",
+        "width": "50px"
+      },
+      {
+        "prop": "height",
+        "label": "高",
+        "width": "50px"
+      },
+      {
+        "prop": "weight",
+        "label": "重量",
+        "width": "80px"
+      },
+      {
+        "prop": "buildingName",
+        "label": "建筑名称"
+      },
+      {
+        "prop": "level",
+        "label": "楼层"
+      },
+      {
+        "prop": "apartmentNumber",
+        "label": "房间号"
+      },{
+        "prop": "windowCode",
+        "label": "窗号"
+      },
+      { 
+        "prop": "fissionsCode",
+        "label": "窗型号"
+      },
+      {
+        "prop": "techSheetNumber",
+        "label": "工艺单号"
+      }
+    ]
+  }
+}

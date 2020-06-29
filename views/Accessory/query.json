@@ -1,0 +1,86 @@
+{
+	"queryCondition": {
+        "ParentID": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "ParentID",
+              "tableRelationMode": "AND",
+              "tableName":"[InfoTable]",
+              "name": "父级编号",
+              "form": "input"
+        }
+        ,
+        "Name": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "Name",
+              "tableRelationMode": "AND",
+              "tableName":"[InfoTable]",
+              "name": "名称",
+              "form": "input"
+        }
+        ,
+        "Category": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "Category",
+              "tableRelationMode": "AND",
+              "tableName":"[InfoTable]",
+              "name": "类别",
+              "form": "input"
+        }
+        ,
+        "Unit": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "Unit",
+              "tableRelationMode": "AND",
+              "tableName":"[InfoTable]",
+              "name": "单位",
+              "form": "input"
+        }
+        ,
+        "Quantity": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "Quantity",
+              "tableRelationMode": "AND",
+              "tableName":"[InfoTable]",
+              "name": "数量",
+              "form": "input"
+        }
+        ,
+        "Place": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "Place",
+              "tableRelationMode": "AND",
+              "tableName":"[InfoTable]",
+              "name": "使用地",
+              "form": "input"
+        }
+        ,
+        "Description": {
+              "value": "",
+              "mode": "不参与",
+              "modeList":[],
+              "dataType": "string",
+              "fieldName": "description",
+              "tableRelationMode": "AND",
+              "tableName":"[InfoTable]",
+              "name": "备注",
+              "form": "input"
+        }  }
+}

@@ -1,0 +1,83 @@
+{
+  "apiName":"production",
+  "editDialogTitle": "采购员管理",
+  "width": "700px",
+  "labelWidth": "80px",
+    "formItems": {
+    "form": [
+      {
+        "type": "input",
+        "value": "",
+        "label": "名称",
+        "name": "name",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "别名",
+        "name": "byname",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "电话",
+        "name": "phone",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "邮箱",
+        "name": "email",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "QQ",
+        "name": "qq",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "微信",
+        "name": "wechat",
+        "style": {
+          "width": "50%"
+        }
+      },
+      {
+        "type": "input",
+        "value": "",
+        "label": "传真",
+        "name": "fax",
+        "style": {
+          "width": "50%"
+        }
+      }
+                ,
+      {
+        "type": "input",
+        "value": "",
+        "label": "备注",
+        "name": "remark",
+        "style": {
+          "width": "50%"
+        }
+     }
+    ]
+  }
+}

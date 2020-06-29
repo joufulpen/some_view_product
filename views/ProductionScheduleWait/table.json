@@ -1,0 +1,61 @@
+{
+  "singleTableData":{
+      "cellStyle": {
+        "height": "30px",
+        "padding": "5px 0"
+        },
+      "data": [],
+      "total": 0,
+      "currentPage": 1,
+      "pageSize": 10,
+      "columns": [{
+          "type": "selection",
+          "showSelectable":true,
+          "justifyText":true,
+          "justifyProp":"status"
+        },
+        {
+          "prop": "engCode",
+          "label": "工程代号"
+        }
+        ,
+        {
+          "prop": "projectName",
+          "label": "项目名称"
+        }
+        ,
+        {
+          "prop": "orderFormno",
+          "label": "订单编号"
+        }
+        ,
+        {
+          "prop": "customerName",
+          "label": "客户名称"
+        }
+        ,
+        {
+          "prop": "orderType",
+          "label": "订单类型"
+        }
+        ,
+        {
+          "prop": "submitDate",
+          "label": "提交时间",
+          "dateFormatter":true
+        }
+        ,
+        {
+          "prop": "deliveryDate",
+          "label": "预计交货日期",
+          "dateFormatter":true
+        }
+        ,
+        {
+          "prop": "description",
+          "label": "备注"
+        }
+        ]
+        }
+  
+}
